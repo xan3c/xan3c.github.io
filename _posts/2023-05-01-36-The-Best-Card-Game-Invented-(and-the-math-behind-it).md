@@ -32,7 +32,8 @@ Unlike 24, the players try to make 36 out of the cards dealt. And you deal **fiv
 
 **Cards Dealt:** 3, 3, 3, 3, 3
 
-In this example, we can make 36 by: 3 * 3 * 3 + 3 * 3
+In this example, we can make 36 by: 3 \* 3 \* 3 + 3 \* 3
+
 ***
 
 ## The Math Behind 36
