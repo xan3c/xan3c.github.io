@@ -90,7 +90,7 @@ With the targets in mind, we now need to generate every possible hand that can b
 Luckily for us, this process of dealing cards has a name, Combinations with Repetition. And someone on the internet has already coded it:
 
 Code Block 1. C# code for selecting *k* items from an array (adapted from [stackexchange](https://stackoverflow.com/questions/1952153/what-is-the-best-way-to-find-all-combinations-of-items-in-an-array)) 
-```C#
+```cs
 static IEnumerable<IEnumerable<T>> GetKCombsWithRept<T>(IEnumerable<T> list, int length) where T : IComparable
     {
         if (length == 1) return list.Select(t => new T[] { t });
@@ -141,7 +141,7 @@ E.g. we can write 1 + 2 + 3 + 4 + 5 as 1 2 + 3 + 4 + 5 +, which is in the form N
 To generate every possible RPN expressions, there is another clever trick. RPN expressions are one-to-one with post-order traversals of binary trees. So we simply generate every possible binary tree with nodes representing operators and leaves representing numbers. We then post-order traverse each tree to form a RPN expression.
 
 Code Block 2. C# code to evaluate an RPN expression (adapted from math.bas.bg/bantchev/place/rpn/rpn.c%23.html)
-```C#
+```cs
  public static double evalrpn(Stack<string> tks)
     {
         string tk = tks.Pop();
