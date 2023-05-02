@@ -135,6 +135,7 @@ NNNONOO,
 NNNNOOO, where N indicates a number and O indicates an operation. This represents all possible ways we can operate on 4 numbers. 
 
 E.g. we can write 1 + 2 + 3 + 4 + 5 as 1 2 + 3 + 4 + 5 +, which is in the form NNONONO. 
+
 ***
 
 To generate every possible RPN expressions, there is another clever trick. RPN expressions are one-to-one with post-order traversals of binary trees. So we simply generate every possible binary tree with nodes representing operators and leaves representing numbers. We then post-order traverse each tree to form a RPN expression.
