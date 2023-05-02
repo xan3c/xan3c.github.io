@@ -4,10 +4,6 @@ title: About
 permalink: /about/
 ---
 
-## About Me
-
 My name is Kenny and I am an undergraduate student studying Mathematical Physics.
 
 This blog is a place for me to store write-ups, projects, and my thoughts. 
-
-This site is powered by Jekyll and a fork of the [reverie](https://github.com/amitmerchant1990/reverie) theme. It is hosted on Github Pages.
