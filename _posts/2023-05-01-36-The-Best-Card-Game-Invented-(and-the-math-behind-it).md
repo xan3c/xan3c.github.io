@@ -120,6 +120,7 @@ You can place the parenthesis in an infinite number of ways:
 ...
 
 Obviously, these are all equivalent statements, but the problem remains
+
 ***
 
 Luckily, there is a clever trick! We can avoid parenthesis all together by using Reverse Polish Notation (RPN). We only need to consider every possible (valid) permutations of RPN orderings. 
