@@ -3,9 +3,6 @@ layout: post
 title: "Powerhouse Provinces: Unveiling the NHL's Game Changers"
 categories: [Data, Hockey]
 ---
-
-## Powerhouse Provinces: Unveiling the NHL's Game Changers
-
 ![](/images/Powerhouse_Provinces.png)
 
 > Data is sourced directly from the NHL API. Visualizations are done with GeoPandas and Canva
